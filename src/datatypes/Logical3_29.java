@@ -11,9 +11,25 @@ public class Logical3_29 {
     е) хотя бы одно из чисел X, Y, Z больше 100.
      */
     public static void main(String[] args) {
-        int x = 1;
-        int y = 3;
+        //a
+        int x = 16;
+        int y = 5;
+        int z = 10;
+
         System.out.println(x%2!=0 && y%2!=0);
+        //b
+        boolean resultB = (x<20)^(y<20);
+        System.out.println(x<20 && !(y<20) || !(x<20)&&y<20);
+        System.out.println(resultB);
+        //c
+        System.out.println(x<20 || y<20);
+        //d
+        System.out.println(x<0 && y<0 && z<0);
+        //e
+        boolean resultE = (x%5==0)^(y%5==0) || (y%5==0)^(z%5==0) || (x%5==0)^(z%5==0);
+        System.out.println("Д: "+resultE);
+        //f
+        System.out.println(x>100 || y>100 || z>100);
 
     }
 }

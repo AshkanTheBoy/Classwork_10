@@ -11,7 +11,7 @@ public class Logical2 {
  */
     public static void main(String[] args) {
         //a
-        int a = 1, b = 1, c = 2;
+        int a = 1, b = 3, c = 2;
         System.out.println(a == b && a!= c);
         //b
         System.out.println(b>a||c>a);
