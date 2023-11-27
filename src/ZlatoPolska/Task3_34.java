@@ -1,4 +1,3 @@
-package ZlatoPolska;
 
 public class Task3_34 {
     public static void main(String[] args) {
